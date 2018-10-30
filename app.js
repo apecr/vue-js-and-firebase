@@ -4,7 +4,9 @@ const vueApp = new Vue({
   el: '#app',
   data: {
     title: 'Becoming a Vue ninja',
-    name: 'Alberto'
+    name: 'Alberto',
+    url: 'http://www.youtube.com',
+    classes: ['one', 'two']
   },
   methods: {
     greet({ time }) {
