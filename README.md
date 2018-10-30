@@ -1,8 +1,18 @@
-# vue-js-and-firebase-section-2
+# vue-js-and-firebase
 
-For starting the app, rigth click in the `index.html` file and select the `Open with Live Server` option.
+> A Vue.js project
 
+## Build Setup
 
-## Event Modifiers
+``` bash
+# install dependencies
+npm install
 
-https://vuejs.org/v2/guide/events.html#Event-Modifiers
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+```
+
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
