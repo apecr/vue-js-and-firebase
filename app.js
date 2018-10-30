@@ -4,11 +4,18 @@ const vueApp = new Vue({
   el: '#app',
   data: {
     title: 'Becoming a Vue ninja',
-    wage: 10
+    coordenates: {
+      x: 0,
+      y: 0
+    }
   },
   methods: {
-    changeWage({amount}) {
-      this.wage += amount;
+    logEvent(event) {
+      console.log(event);
+    },
+    logCoordinates(event) {
+      this.coordenates.x = event.offsetX;
+      this.coordenates.y = event.offsetY;
     }
   }
 });
