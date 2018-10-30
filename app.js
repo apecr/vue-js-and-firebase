@@ -3,11 +3,16 @@
 const vueApp = new Vue({
   el: '#app',
   data: {
-    title: 'Becoming a Vue ninja'
+    title: 'Becoming a Vue ninja',
+    showName: false,
+    showAge: true
   },
   methods: {
-    logMessage() {
-      console.log('Hello World!');
+    toggleName() {
+      this.showName = !this.showName;
+    },
+    toggleAge() {
+      this.showAge = !this.showAge;
     }
   }
 });
