@@ -9,8 +9,8 @@
     <h1>Vue Basics</h1>
     <div id="app">
         <h2>{{ title }}</h2>
-        <p>My name is {{ name }}</p>
-        <input type="text" v-model="name">
+        <button @click.alt="logMessage">alt-click me</button>
+        <button @click.shift="logMessage">shift-click me</button>
     </div>
     <script src="app.js"></script>
 </body>

@@ -3,13 +3,11 @@
 const vueApp = new Vue({
   el: '#app',
   data: {
-    title: 'Becoming a Vue ninja',
-    name: 'Alberto'
+    title: 'Becoming a Vue ninja'
   },
   methods: {
-    updateName(event) {
-      //console.log(event.target.value);
-      this.name = event.target.value;
+    logMessage() {
+      console.log('Hello World!');
     }
   }
 });
