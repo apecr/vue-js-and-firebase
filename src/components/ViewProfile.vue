@@ -11,6 +11,14 @@ export default {
     return {
       userId: this.$route.params.user_id
     };
+  },
+  watch: {
+    $route: 'updateId'
+  },
+  methods: {
+    updateId(){
+      this.userId = this.$route.params.user_id
+    }
   }
 };
 </script>
