@@ -1,7 +1,7 @@
 {
   "name": "vue-js-and-firebase",
   "description": "A Vue.js project",
-  "version": "1.3.0-rc.0",
+  "version": "1.3.0",
   "author": "alberto.eyo",
   "bugs": {
     "url": "https://github.com/apecr/vue-js-and-firebase/issues"
